@@ -1,0 +1,85 @@
+program found
+stmt_seq found
+stmt found
+read-stmt found
+read
+Identifier
+;
+stmt found
+if-stmt found
+if
+exp found
+simple-exp found
+term found
+factor found
+number
+<
+simple-exp found
+term found
+factor found
+Identifier
+then
+stmt_seq found
+stmt found
+assign-stmt found
+Identifier
+:=
+exp found
+simple-exp found
+term found
+factor found
+number
+;
+stmt found
+repeat-stmt found
+repeat
+stmt_seq found
+stmt found
+assign-stmt found
+Identifier
+:=
+exp found
+simple-exp found
+term found
+factor found
+Identifier
+*
+factor found
+Identifier
+;
+stmt found
+assign-stmt found
+Identifier
+:=
+exp found
+simple-exp found
+term found
+factor found
+Identifier
+-
+term found
+factor found
+number
+Error, expected (;) in assignm-stmt
+until
+exp found
+simple-exp found
+term found
+factor found
+Identifier
+=
+simple-exp found
+term found
+factor found
+number
+;
+stmt found
+write-stmt found
+write
+exp found
+simple-exp found
+term found
+factor found
+Identifier
+Error, expected (;) in write-stmt
+end
